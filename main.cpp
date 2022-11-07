@@ -17,7 +17,7 @@ int main() {
 
 
 
-        outputthestack(void);
+        outputthestack();
         printf("Main Menu\n");
         printf("a. Insert a integer into the stack.\n");
         printf("b. Process an integer from the \n");
@@ -33,7 +33,7 @@ int main() {
               inserttothestack();
                 break;
             case 'b':
-                pullfromthethestack;
+                pullfromthethestack();
             break;
             default:
                 printf("invalid input");
